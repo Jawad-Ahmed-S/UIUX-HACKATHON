@@ -1,7 +1,7 @@
 
 export default function ProductCard({ imagePath, title, price }) {
   return (
-    <div className="bg-white  w-[18rem] ">
+    <div className="bg-white  md:w-[18rem] w-[100%]">
     
       <img 
         src={imagePath} 
