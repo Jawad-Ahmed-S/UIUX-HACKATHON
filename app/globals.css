@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -30,27 +29,27 @@ body {
   }
 }
 .headline-one {
-  @apply text-[36px] leading-[150%] custom-abeezee;
+  @apply text-[36px] leading-[150%];
 }
 
 .headline-two {
-  @apply text-[32px] leading-[150%] custom-abeezee;
+  @apply text-[32px] leading-[150%];
 }
 
 .headline-three {
-  @apply text-[24px] leading-[150%] custom-abeezee;
+  @apply text-[24px] leading-[150%];
 }
 
 .headline-four {
-  @apply text-[20px] leading-[150%] custom-abeezee;
+  @apply text-[20px] leading-[150%];
 }
 
 .headline-five {
-  @apply text-[16px] leading-[150%] custom-abeezee;
+  @apply text-[16px] leading-[150%];
 }
 
 .headline-six {
-  @apply text-[14px] leading-[150%] custom-abeezee;
+  @apply text-[14px] leading-[150%];
 }
 
 .body-small {
