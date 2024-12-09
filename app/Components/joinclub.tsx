@@ -1,6 +1,6 @@
 import { QualityIcon } from "./icons";
 import { ButtonDarkBlue } from "./button";
-
+import "./styles/hero.css"
 export default function JoinClub() {
   return (
     <section className="joinClub-bg w-full text-white flex justify-center mt-[5rem] items-center">
