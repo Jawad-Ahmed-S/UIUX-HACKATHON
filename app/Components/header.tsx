@@ -31,8 +31,8 @@ export default function Header() {
 
         {/* Right Icons (Cart & User) */}
         <div className="hidden lg:flex gap-4">
-          <Link href="/Cart"><CartIcon /></Link>
-          <Link href="/About"><UserIcon /></Link>
+          <Link href="/Cart" className="hover:bg-custom-gray-medium p-2"><CartIcon /></Link>
+          <Link href="/About" className="hover:bg-custom-gray-medium p-2"><UserIcon /></Link>
         </div>
       </div>
 
@@ -41,40 +41,40 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="lg:hidden absolute top-[5rem] left-0 w-full bg-white shadow-md z-10">
+        <div className="lg:hidden absolute  left-0 w-full bg-white shadow-md z-10">
           <ul className="flex flex-col gap-4 p-4">
             <li>
-              <Link href="/AllProduct" className="headline-six text-custom-purple-dark">
+              <Link href="/AllProduct" className=" headline-six hover:text-custom-purple-light text-custom-purple-dark">
                 Plant Pots
               </Link>
             </li>
             <li>
-              <Link href=" /AllProduct" className="headline-six text-custom-purple-dark">
+              <Link href=" /AllProduct" className="headline-six hover:text-custom-purple-light text-custom-purple-dark">
                 Ceramics
               </Link>
             </li>
             <li>
-              <Link href=" /AllProduct" className="headline-six text-custom-purple-dark">
+              <Link href=" /AllProduct" className="headline-six hover:text-custom-purple-light text-custom-purple-dark">
                 Tables
               </Link>
             </li>
             <li>
-              <Link href=" /AllProduct" className="headline-six text-custom-purple-dark">
+              <Link href=" /AllProduct" className="headline-six hover:text-custom-purple-light text-custom-purple-dark">
                 Chairs
               </Link>
             </li>
             <li>
-              <Link href=" /AllProduct" className="headline-six text-custom-purple-dark">
+              <Link href=" /AllProduct" className="headline-six hover:text-custom-purple-light text-custom-purple-dark">
                 Crockery
               </Link>
             </li>
             <li>
-              <Link href=" /AllProduct" className="headline-six text-custom-purple-dark">
+              <Link href=" /AllProduct" className="headline-six hover:text-custom-purple-light text-custom-purple-dark">
                 Tableware
               </Link>
             </li>
             <li>
-              <Link href=" /AllProduct" className="headline-six text-custom-purple-dark">
+              <Link href=" /AllProduct" className="headline-six hover:text-custom-purple-light text-custom-purple-dark">
                 Cutlery
               </Link>
             </li>
@@ -85,13 +85,13 @@ export default function Header() {
       {/* Desktop Navigation */}
       <div className="hidden lg:flex justify-center items-center h-[3rem] list-none">
         <div className="flex justify-between gap-8 headline-six text-custom-purple-dark" style={{ color: " /AllProduct4E4D93" }}>
-          <Link href=" /AllProduct">Plant Pots</Link>
-          <Link href=" /AllProduct">Ceramics</Link>
-          <Link href=" /AllProduct">Tables</Link>
-          <Link href=" /AllProduct">Chairs</Link>
-          <Link href=" /AllProduct">Crockery</Link>
-          <Link href=" /AllProduct">Tableware</Link>
-          <Link href=" /AllProduct">Cutlery</Link>
+          <Link href=" /AllProduct" className="hover:text-custom-purple-light">Plant Pots</Link>
+          <Link href=" /AllProduct" className="hover:text-custom-purple-light">Ceramics</Link>
+          <Link href=" /AllProduct" className="hover:text-custom-purple-light">Tables</Link>
+          <Link href=" /AllProduct" className="hover:text-custom-purple-light">Chairs</Link>
+          <Link href=" /AllProduct" className="hover:text-custom-purple-light">Crockery</Link>
+          <Link href=" /AllProduct" className="hover:text-custom-purple-light">Tableware</Link>
+          <Link href=" /AllProduct" className="hover:text-custom-purple-light">Cutlery</Link>
         </div>
       </div>
     </div>

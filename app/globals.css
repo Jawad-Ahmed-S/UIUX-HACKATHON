@@ -23,11 +23,16 @@ body {
   background-color: white;
   
 }
-
+Link:hover{
+  opacity: 0.8;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+.link-color{
+  @apply text-red-900;
 }
 .headline-one {
   @apply text-[36px] leading-[150%] font-light ;

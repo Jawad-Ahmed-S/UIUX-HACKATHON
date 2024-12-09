@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import { ButtonGray } from "./button";
 export default function Footer() {
   return (
     <footer className="bg-custom-purple-dark text-white py-8 mt-[5rem]">
@@ -11,19 +11,19 @@ export default function Footer() {
             <h2 className="mb-4 font-medium headline-five">Menu</h2>
             <ul className="space-y-2">
               <li className="body-small">
-                <Link href="/new">New arrivals</Link>
+                <Link className="hover:text-custom-gray" href="/new">New arrivals</Link>
               </li>
               <li className="body-small">
-                <Link href="/new">Best sellers</Link>
+                <Link className="hover:text-custom-gray" href="/new">Best sellers</Link>
               </li>
               <li className="body-small">
-                <Link href="/new">Recently viewed</Link>
+                <Link className="hover:text-custom-gray" href="/new">Recently viewed</Link>
               </li>
               <li className="body-small">
-                <Link href="/new">Popular this week</Link>
+                <Link className="hover:text-custom-gray" href="/new">Popular this week</Link>
               </li>
               <li className="body-small">
-                <Link href="/AllProduct">All products</Link>
+                <Link className="hover:text-custom-gray" href="/AllProduct">All products</Link>
               </li>
             </ul>
           </div>
@@ -33,19 +33,19 @@ export default function Footer() {
             <h2 className="mb-4 font-medium headline-five">Categories</h2>
             <ul className="space-y-2">
               <li className="body-small">
-                <Link href="/AllProduct">Crockery</Link>
+                <Link className="hover:text-custom-gray" href="/AllProduct">Crockery</Link>
               </li>
               <li className="body-small">
-                <Link href="/AllProduct">Furniture</Link>
+                <Link className="hover:text-custom-gray" href="/AllProduct">Furniture</Link>
               </li>
               <li className="body-small">
-                <Link href="/AllProduct">Homeware</Link>
+                <Link className="hover:text-custom-gray" href="/AllProduct">Homeware</Link>
               </li>
               <li className="body-small">
-                <Link href="/AllProduct-pots">Plant pots</Link>
+                <Link className="hover:text-custom-gray" href="/AllProduct-pots">Plant pots</Link>
               </li>
               <li className="body-small">
-                <Link href="/AllProduct">Chairs</Link>
+                <Link className="hover:text-custom-gray" href="/AllProduct">Chairs</Link>
               </li>
             </ul>
           </div>
@@ -55,19 +55,19 @@ export default function Footer() {
             <h2 className="mb-4 font-medium headline-five">Our company</h2>
             <ul className="space-y-2">
               <li className="body-small">
-                <Link href="/About">About us</Link>
+                <Link className="hover:text-custom-gray" href="/About">About us</Link>
               </li>
               <li className="body-small">
-                <Link href="/About">Vacancies</Link>
+                <Link className="hover:text-custom-gray" href="/About">Vacancies</Link>
               </li>
               <li className="body-small">
-                <Link href="/About">Contact us</Link>
+                <Link className="hover:text-custom-gray" href="/About">Contact us</Link>
               </li>
               <li className="body-small">
-                <Link href="/About">Privacy</Link>
+                <Link className="hover:text-custom-gray" href="/About">Privacy</Link>
               </li>
               <li className="body-small">
-                <Link href="/About">Returns policy</Link>
+                <Link className="hover:text-custom-gray" href="/About">Returns policy</Link>
               </li>
             </ul>
           </div>
@@ -81,12 +81,7 @@ export default function Footer() {
                 placeholder="your@email.com"
                 className="body-small bg-custom-purple-light text-white border-none   p-2 w-full lg:w-auto placeholder-gray-400"
               />
-              <button
-                type="submit"
-                className="bg-white text-custom-purple-dark   px-4 py-2 font-medium"
-              >
-                {/* Sign up */}
-              </button>
+              <ButtonGray className="w-10">SignUp</ButtonGray>
             </form>
           </div>
         </div>
