@@ -22,18 +22,17 @@ export default function Header() {
           <div className="w-6 h-0.5 bg-custom-purple-dark"></div>
         </div>
 
-        {/* Logo (Centered for Desktop and Mobile) */}
-        <h1 className="headline-two text-custom-purple-dark mx-auto">Avion</h1>
-
         {/* Search Icon */}
-        <div className="lg:hidden">
+        <div className="">
           <SearchIcon />
         </div>
+        {/* Logo (Centered for Desktop and Mobile) */}
+        <Link href="/"><h1 className="headline-two font-title text-custom-purple-dark mx-auto">Avion</h1></Link>
 
         {/* Right Icons (Cart & User) */}
         <div className="hidden lg:flex gap-4">
-          <CartIcon />
-          <UserIcon />
+          <Link href="/Cart"><CartIcon /></Link>
+          <Link href="/About"><UserIcon /></Link>
         </div>
       </div>
 
@@ -45,37 +44,37 @@ export default function Header() {
         <div className="lg:hidden absolute top-[5rem] left-0 w-full bg-white shadow-md z-10">
           <ul className="flex flex-col gap-4 p-4">
             <li>
-              <Link href="#" className="headline-six text-custom-purple-dark">
+              <Link href="/AllProduct" className="headline-six text-custom-purple-dark">
                 Plant Pots
               </Link>
             </li>
             <li>
-              <Link href="#" className="headline-six text-custom-purple-dark">
+              <Link href=" /AllProduct" className="headline-six text-custom-purple-dark">
                 Ceramics
               </Link>
             </li>
             <li>
-              <Link href="#" className="headline-six text-custom-purple-dark">
+              <Link href=" /AllProduct" className="headline-six text-custom-purple-dark">
                 Tables
               </Link>
             </li>
             <li>
-              <Link href="#" className="headline-six text-custom-purple-dark">
+              <Link href=" /AllProduct" className="headline-six text-custom-purple-dark">
                 Chairs
               </Link>
             </li>
             <li>
-              <Link href="#" className="headline-six text-custom-purple-dark">
+              <Link href=" /AllProduct" className="headline-six text-custom-purple-dark">
                 Crockery
               </Link>
             </li>
             <li>
-              <Link href="#" className="headline-six text-custom-purple-dark">
+              <Link href=" /AllProduct" className="headline-six text-custom-purple-dark">
                 Tableware
               </Link>
             </li>
             <li>
-              <Link href="#" className="headline-six text-custom-purple-dark">
+              <Link href=" /AllProduct" className="headline-six text-custom-purple-dark">
                 Cutlery
               </Link>
             </li>
@@ -85,14 +84,14 @@ export default function Header() {
 
       {/* Desktop Navigation */}
       <div className="hidden lg:flex justify-center items-center h-[3rem] list-none">
-        <div className="flex justify-between gap-8 headline-six text-custom-purple-dark" style={{ color: "#4E4D93" }}>
-          <Link href="#">Plant Pots</Link>
-          <Link href="#">Ceramics</Link>
-          <Link href="#">Tables</Link>
-          <Link href="#">Chairs</Link>
-          <Link href="#">Crockery</Link>
-          <Link href="#">Tableware</Link>
-          <Link href="#">Cutlery</Link>
+        <div className="flex justify-between gap-8 headline-six text-custom-purple-dark" style={{ color: " /AllProduct4E4D93" }}>
+          <Link href=" /AllProduct">Plant Pots</Link>
+          <Link href=" /AllProduct">Ceramics</Link>
+          <Link href=" /AllProduct">Tables</Link>
+          <Link href=" /AllProduct">Chairs</Link>
+          <Link href=" /AllProduct">Crockery</Link>
+          <Link href=" /AllProduct">Tableware</Link>
+          <Link href=" /AllProduct">Cutlery</Link>
         </div>
       </div>
     </div>

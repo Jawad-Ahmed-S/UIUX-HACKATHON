@@ -16,7 +16,8 @@ const config: Config = {
         'custom-gray': '#CAC6DA',
       },
       fontFamily:{
-        'custom-abeezee':'ABeeZee',
+        title:["ABeeZee"],
+        // 'custom-abeezee':['ABeeZee','sans-serif'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -11,19 +11,19 @@ export default function Footer() {
             <h2 className="mb-4 font-medium headline-five">Menu</h2>
             <ul className="space-y-2">
               <li className="body-small">
-                <Link href="/new-arrivals">New arrivals</Link>
+                <Link href="/new">New arrivals</Link>
               </li>
               <li className="body-small">
-                <Link href="/best-sellers">Best sellers</Link>
+                <Link href="/new">Best sellers</Link>
               </li>
               <li className="body-small">
-                <Link href="/recently-viewed">Recently viewed</Link>
+                <Link href="/new">Recently viewed</Link>
               </li>
               <li className="body-small">
-                <Link href="/popular-this-week">Popular this week</Link>
+                <Link href="/new">Popular this week</Link>
               </li>
               <li className="body-small">
-                <Link href="/all-products">All products</Link>
+                <Link href="/AllProduct">All products</Link>
               </li>
             </ul>
           </div>
@@ -33,19 +33,19 @@ export default function Footer() {
             <h2 className="mb-4 font-medium headline-five">Categories</h2>
             <ul className="space-y-2">
               <li className="body-small">
-                <Link href="/categories/crockery">Crockery</Link>
+                <Link href="/AllProduct">Crockery</Link>
               </li>
               <li className="body-small">
-                <Link href="/categories/furniture">Furniture</Link>
+                <Link href="/AllProduct">Furniture</Link>
               </li>
               <li className="body-small">
-                <Link href="/categories/homeware">Homeware</Link>
+                <Link href="/AllProduct">Homeware</Link>
               </li>
               <li className="body-small">
-                <Link href="/categories/plant-pots">Plant pots</Link>
+                <Link href="/AllProduct-pots">Plant pots</Link>
               </li>
               <li className="body-small">
-                <Link href="/categories/chairs">Chairs</Link>
+                <Link href="/AllProduct">Chairs</Link>
               </li>
             </ul>
           </div>
@@ -55,19 +55,19 @@ export default function Footer() {
             <h2 className="mb-4 font-medium headline-five">Our company</h2>
             <ul className="space-y-2">
               <li className="body-small">
-                <Link href="/about-us">About us</Link>
+                <Link href="/About">About us</Link>
               </li>
               <li className="body-small">
-                <Link href="/vacancies">Vacancies</Link>
+                <Link href="/About">Vacancies</Link>
               </li>
               <li className="body-small">
-                <Link href="/contact-us">Contact us</Link>
+                <Link href="/About">Contact us</Link>
               </li>
               <li className="body-small">
-                <Link href="/privacy">Privacy</Link>
+                <Link href="/About">Privacy</Link>
               </li>
               <li className="body-small">
-                <Link href="/returns-policy">Returns policy</Link>
+                <Link href="/About">Returns policy</Link>
               </li>
             </ul>
           </div>
@@ -79,13 +79,13 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="your@email.com"
-                className="body-small bg-custom-purple-light text-white border-none rounded-l-md p-2 w-full lg:w-auto placeholder-gray-400"
+                className="body-small bg-custom-purple-light text-white border-none   p-2 w-full lg:w-auto placeholder-gray-400"
               />
               <button
                 type="submit"
-                className="bg-white text-custom-purple-dark rounded-r-md px-4 py-2 font-medium"
+                className="bg-white text-custom-purple-dark   px-4 py-2 font-medium"
               >
-                Sign up
+                {/* Sign up */}
               </button>
             </form>
           </div>
@@ -97,11 +97,11 @@ export default function Footer() {
             &copy; Copyright 2022 Avion LTD
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="body-small">LinkedIn</a>
-            <a href="#" className="body-small">Facebook</a>
-            <a href="#" className="body-small">Instagram</a>
-            <a href="#" className="body-small">Skype</a>
-            <a href="#" className="body-small">Pinterest</a>
+            <a href="https://linkedin.com" className="body-small">LinkedIn</a>
+            <a href="https://facebook.com" className="body-small">Facebook</a>
+            <a href="https://instagram.com" className="body-small">Instagram</a>
+            <a href="https://skype.com" className="body-small">Skype</a>
+            <a href="https://pinterest.com" className="body-small">Pinterest</a>
           </div>
         </div>
       </div>

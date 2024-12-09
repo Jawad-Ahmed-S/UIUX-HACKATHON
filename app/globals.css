@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -21,6 +21,7 @@
 }
 body {
   background-color: white;
+  
 }
 
 @layer utilities {
@@ -29,27 +30,27 @@ body {
   }
 }
 .headline-one {
-  @apply text-[36px] leading-[150%] font-custom-abeezee;
+  @apply text-[36px] leading-[150%] font-light ;
 }
 
 .headline-two {
-  @apply text-[32px] leading-[150%] font-custom-abeezee;
+  @apply text-[32px] leading-[150%] font-light;
 }
 
 .headline-three {
-  @apply text-[24px] leading-[150%] font-custom-abeezee;
+  @apply text-[24px] leading-[150%] font-light;
 }
 
 .headline-four {
-  @apply text-[20px] leading-[150%] font-custom-abeezee;
+  @apply text-[20px] leading-[150%] font-light ;
 }
 
 .headline-five {
-  @apply text-[16px] leading-[150%] font-custom-abeezee;
+  @apply text-[16px] leading-[150%] font-light ;
 }
 
 .headline-six {
-  @apply text-[14px] leading-[150%] font-custom-abeezee;
+  @apply text-[14px] leading-[150%] font-light ;
 }
 
 .body-small {
@@ -61,9 +62,9 @@ body {
 }
 
 .body-large {
-  @apply text-[18px] leading-[150%];
+  @apply text-[18px] leading-[150%] font-light;
 }
 
 .test {
-  @apply border-[1px] border-red-500;
+  @apply border-[1px] border-red-500 font-light;
 }
