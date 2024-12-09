@@ -1,4 +1,4 @@
-import { QualityIcon } from "./icons";
+import { QualityIcon,CheckMarkIcon } from "./icons";
 import { ButtonDarkBlue } from "./button";
 import "./styles/hero.css"
 export default function JoinClub() {
@@ -14,15 +14,15 @@ export default function JoinClub() {
         {/* Responsive Icons with Text */}
         <div className="flex gap-5 mt-7 flex-col md:flex-row items-start md:items-center">
           <div className="flex  gap-2 items-center stroke-white">
-            <QualityIcon />
+            <CheckMarkIcon  />
             <p className="body-small">Exclusive Offers</p>
           </div>
           <div className="flex  gap-2 items-center stroke-white">
-            <QualityIcon />
+            <CheckMarkIcon  />
             <p className="body-small">Early Access</p>
           </div>
           <div className="flex  gap-2 items-center stroke-white">
-            <QualityIcon />
+            <CheckMarkIcon  />
             <p className="body-small">Member Discounts</p>
           </div>
         </div>
