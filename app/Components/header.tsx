@@ -23,11 +23,11 @@ export default function Header() {
         </div>
 
         {/* Search Icon */}
-        <div className="">
-          <SearchIcon />
-        </div>
         {/* Logo (Centered for Desktop and Mobile) */}
         <Link href="/"><h1 className="headline-two font-title text-custom-purple-dark mx-auto">Avion</h1></Link>
+        <div className="lg:hidden">
+          <SearchIcon />
+        </div>
 
         {/* Right Icons (Cart & User) */}
         <div className="hidden lg:flex gap-4">

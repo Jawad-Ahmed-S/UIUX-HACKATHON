@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <footer className="bg-custom-purple-dark text-white py-8 mt-[5rem]">
       <div className="container mx-auto px-8">
-        {/* Footer Content */}
-        <div className="flex justify-between items-start space-y-8 lg:space-y-0 flex-wrap">
+
+        <div className="flex justify-between items-start md:space-y-8 lg:space-y-0 flex-wrap">
           {/* Menu Section */}
           <div>
             <h2 className="mb-4 font-medium headline-five">Menu</h2>
@@ -74,7 +74,7 @@ export default function Footer() {
 
           {/* Mailing List Section */}
           <div className="w-full lg:w-auto">
-            <h2 className="mb-4 font-medium headline-five">Join our mailing list</h2>
+            <h2 className="mb-4 mt-4 font-medium headline-five">Join our mailing list</h2>
             <form className="flex">
               <input
                 type="email"
@@ -96,7 +96,7 @@ export default function Footer() {
           <p className="body-small text-gray-400">
             &copy; Copyright 2022 Avion LTD
           </p>
-          <div className="flex space-x-4">
+          <div className="flex flex-col md:flex-row md:space-x-4">
             <a href="https://linkedin.com" className="body-small">LinkedIn</a>
             <a href="https://facebook.com" className="body-small">Facebook</a>
             <a href="https://instagram.com" className="body-small">Instagram</a>
